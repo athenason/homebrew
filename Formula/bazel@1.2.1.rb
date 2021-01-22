@@ -5,7 +5,8 @@ class BazelAT121 < Formula
   sha256 "255da49d0f012bc4f2c1d6d3ccdbe578e22fe97b8d124e1629a486fe2a09d3e1"
 
   depends_on "python" => :build
-  depends_on :java => "1.8"
+  #depends_on :java => "1.8"
+  depends_on :java => "openjdk@8"
   depends_on :macos => :yosemite
 
   def install
