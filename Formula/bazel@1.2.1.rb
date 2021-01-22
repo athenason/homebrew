@@ -6,7 +6,7 @@ class BazelAT121 < Formula
 
   depends_on "python" => :build
   #depends_on :java => "1.8"
-  depends_on :java => "openjdk@8"
+  depends_on "openjdk@8"
   depends_on :macos => :yosemite
 
   def install
